@@ -1,0 +1,15 @@
+{
+  "name": "error-budget-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "按路由与请求等级核算、支持幂等上报、版本修订和结算窗口的错误预算计算器",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
